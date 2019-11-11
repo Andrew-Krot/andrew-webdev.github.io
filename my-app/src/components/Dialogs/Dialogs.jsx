@@ -2,39 +2,51 @@ import React from 'react';
 import s from './Dialogs.module.css';
 import {NavLink} from "react-router-dom";
 
-const DialogItem = () => {
+const DialogItem = (props) => {
+    let path = "/dialogs/" + props.id;
+
     return <div className={s.dialog + ' ' + s.active}>
-        <NavLink to="/dialogs/1">Dimych</NavLink>
+        <NavLink to={path}>{props.name}</NavLink>
     </div>
 }
 
+const Message = (props) => {
+    return <div className={s.message}>{props.message}</div>
+}
+
 const Dialogs = (props) => {
+
+    let dialogs = [
+        {id: '1', name: 'Dimych'},
+        {id: '2', name: 'Andrew'},
+        {id: '3', name: 'Lena'},
+        {id: '4', name: 'Marina'},
+        {id: '5', name: 'Olya'},
+        {id: '6', name: 'Masha'}
+    ]
+
+    let messages = [
+        {id: '1', message: 'Hi!'},
+        {id: '2', message: 'How are you?'},
+        {id: '3', message: 'Whats up?!'},
+        {id: '4', message: 'Wanna eat?'},
+        {id: '5', message: 'Ok'},
+        {id: '6', message: 'Yo'}
+    ]
+
+    let dialogsElements = dialogs.map(d => <DialogItem name={d.name} id={d.id}/>)
+
+    let messagesElements = messages.map(m => <Message message={m.message} id={m.id}/>)
+
     return (
         <div className={s.dialogs}>
             <div>
-                <ul className={s.dialogsItems}>
-                    <DialogItem name="Dimych" id=1/>
-                    <li className={s.dialog}>
-                        <NavLink to="/dialogs/2">Dron</NavLink>
-                    </li>
-                    <li className={s.dialog}>
-                        <NavLink to="/dialogs/3">Lena</NavLink>
-                    </li>
-                    <li className={s.dialog}>
-                        <NavLink to="/dialogs/4">Marina</NavLink>
-                    </li>
-                    <li className={s.dialog}>
-                        <NavLink to="/dialogs/5">Olya</NavLink>
-                    </li>
-                    <li className={s.dialog}>
-                        <NavLink to="/dialogs/6">Masha</NavLink>
-                    </li>
-                </ul>
+                <div className={s.dialogsItems}>
+                    {dialogsElements}
+                </div>
             </div>
             <div className={s.messages}>
-                <div className={s.message}>Hi!</div>
-                <div className={s.message}>How are you?</div>
-                <div className={s.message}>Nice!</div>
+                {messagesElements}
             </div>
         </div>
     )
