@@ -24,7 +24,7 @@ li {
     color: #fff;
     transition: all 0.3s;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 24px;
 }
 
 .item a:hover {
@@ -39,12 +39,24 @@ li {
 }
 
 .friends {
-    margin-top: 100px;
     padding-left: 30px;
+    padding-top: 50px;
 }
 
 .friends a {
     color: #fff;
     transition: all 0.3s;
     font-size: 26px;
+    line-height: 28px;
+}
+
+.friends a:hover {
+    color: #010101;
+    transition: all 0.3s;
+    font-size: 30px;
+}
+
+.friends .activeLink {
+    font-size: 30px;
+    color: #010101;
 }

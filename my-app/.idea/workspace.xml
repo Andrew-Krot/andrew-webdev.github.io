@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ce829f-d420-47de-a731-38657fa8195f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Friends/Friends.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Friends/Friends.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Friends/FriendItem/FriendItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Friends/FriendItem/FriendItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Shrek.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/donkey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/dragon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/fiona.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/king.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Friends/Friends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/Friends.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,25 +46,34 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1T72y6ICWc43STbKv3JR9WFVSmM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/Message" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\Message" />
       <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItem" />
@@ -126,6 +139,11 @@
       <workItem from="1573720489979" duration="2132000" />
       <workItem from="1573722902996" duration="30000" />
       <workItem from="1573723935269" duration="12619000" />
+      <workItem from="1573804647691" duration="1146000" />
+      <workItem from="1573806820802" duration="10001000" />
+      <workItem from="1573818244312" duration="5224000" />
+      <workItem from="1573901584088" duration="2953000" />
+      <workItem from="1573904596365" duration="5877000" />
     </task>
     <task id="LOCAL-00001" summary="Better every day">
       <created>1573576158269</created>
@@ -154,6 +172,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Better every day" />
     <MESSAGE value="rendered data in index.js" />
     <option name="LAST_COMMIT_MESSAGE" value="rendered data in index.js" />
