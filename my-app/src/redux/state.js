@@ -10,12 +10,50 @@ let state = {
 
     dialogsPage: {
         dialogs: [
-            {id: '1', name: 'Dimych'},
-            {id: '2', name: 'Andrew'},
-            {id: '3', name: 'Lena'},
-            {id: '4', name: 'Marina'},
-            {id: '5', name: 'Olya'},
-            {id: '6', name: 'Masha'}],
+            {
+                photo: <img className={s.ava}
+                            src="https://himflax.com/wp-content/uploads/2019/08/React-Native%E2%80%94Future-of-Hybrid-App-Development-post-01-1024x1024.jpg"
+                            alt="dialogAva"/>,
+                id: '1',
+                name: 'Dimych'
+            },
+            {
+                photo: <img className={s.ava}
+                            src="https://uhdwallpapers.org/uploads/converted/19/08/03/huawei-mediapad-m6-stock-wallpaper-1024x1024_666874-mm-90.jpg"
+                            alt="dialogAva"/>,
+                id: '2',
+                name: 'Andrew'
+            },
+            {
+                photo: <img className={s.ava}
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRkE7p3KNyZIWzerh5gU_qigzTsDV9uOQFeUn-sImafTM89Pl2R"
+                            alt="dialogAva"/>,
+                id: '3',
+                name: 'Lena'
+            },
+            {
+                photo: <img className={s.ava}
+                            src="https://naked-science.ru/wp-content/uploads/2018/12/field_image_moon1-1024x1024.jpg"
+                            alt="dialogAva"/>,
+                id: '4',
+                name: 'Marina'
+            },
+            {
+                photo: <img className={s.ava}
+                            src="https://www.fertilizerdaily.ru/wp-content/uploads/2019/11/2019-08-13T015706Z_1557258821_RC1724316D10_RTRMADP_2_NUTRIEN-POTASH-1024x1024.jpg"
+                            alt="dialogAva"/>,
+                id: '5',
+                name: 'Olya'
+            },
+            {
+                photo: <img className={s.ava}
+                            src="https://wallbox.ru/resize/1024x1024/wallpapers/main/201617/c06a013e607fde9.jpg"
+                            alt="dialogAva"/>,
+                id: '6',
+                name: 'Masha'
+            }],
+
+
         messages: [
             {id: '1', message: 'Hi!'},
             {id: '2', message: 'How are you?'},

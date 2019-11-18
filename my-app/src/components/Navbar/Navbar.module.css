@@ -38,25 +38,32 @@ li {
     color: #010101;
 }
 
-.friends {
+.friendsTitle {
     padding-left: 30px;
     padding-top: 50px;
 }
 
-.friends a {
+.friendsTitle a {
     color: #fff;
     transition: all 0.3s;
     font-size: 26px;
-    line-height: 28px;
+    line-height: 32px;
 }
 
-.friends a:hover {
+.friendsTitle a:hover {
     color: #010101;
     transition: all 0.3s;
     font-size: 30px;
 }
 
-.friends .activeLink {
+.friendsTitle .activeLink {
     font-size: 30px;
     color: #010101;
+}
+
+.friendsElements {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
 }

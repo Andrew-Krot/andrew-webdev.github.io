@@ -5,6 +5,10 @@
 }
 
 .item {
-    display: flex;
-    justify-content: space-between;
+    padding: 3px;
+    text-align: center;
+}
+
+.item a {
+    color: black;
 }

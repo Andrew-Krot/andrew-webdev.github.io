@@ -5,9 +5,8 @@
 .dialogsItems {
 
 }
-
 .dialogsItems .active{
-    color: gold;
+    color: red;
 }
 
 .dialog {
