@@ -1,5 +1,6 @@
 import React from 'react';
 import s from '../components/Friends/FriendItem/FriendItem.module.css';
+import {rerenderEntireTree} from "../render";
 
 let state = {
     profilePage: {
@@ -52,7 +53,6 @@ let state = {
                 id: '6',
                 name: 'Masha'
             }],
-
 
         messages: [
             {id: '1', message: 'Hi!'},
@@ -109,5 +109,17 @@ let state = {
         ]
     }
 };
+
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 5,
+        message: postMessage,
+        likeCount: 0
+    };
+
+    state.profilePage.posts.push(newPost)
+    rerenderEntireTree(state);
+};
+
 
 export default state;

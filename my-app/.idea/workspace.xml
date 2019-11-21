@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ce829f-d420-47de-a731-38657fa8195f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Friends/FriendItem/FriendItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/FriendItem/FriendItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Friends/FriendItem/FriendItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/FriendItem/FriendItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/Friends.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +64,9 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="F:/nodejs/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -143,6 +143,12 @@
       <workItem from="1573901584088" duration="2953000" />
       <workItem from="1573904596365" duration="5877000" />
       <workItem from="1574065745421" duration="10357000" />
+      <workItem from="1574077511614" duration="382000" />
+      <workItem from="1574150938350" duration="425000" />
+      <workItem from="1574151463944" duration="7271000" />
+      <workItem from="1574329782714" duration="191000" />
+      <workItem from="1574330030701" duration="2604000" />
+      <workItem from="1574332845886" duration="3781000" />
     </task>
     <task id="LOCAL-00001" summary="Better every day">
       <created>1573576158269</created>
@@ -174,6 +180,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Better every day" />
     <MESSAGE value="rendered data in index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="rendered data in index.js" />
+    <MESSAGE value="Added the ability to add posts on the Profile page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the ability to add posts on the Profile page." />
   </component>
 </project>
