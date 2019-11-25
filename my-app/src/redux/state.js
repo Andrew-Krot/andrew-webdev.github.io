@@ -112,14 +112,23 @@ let state = {
 
 export let addPost = (postMessage) => {
     let newPost = {
-        id: 5,
+        id: 7,
         message: postMessage,
         likeCount: 0
     };
 
-    state.profilePage.posts.push(newPost)
+    state.profilePage.posts.push(newPost);
     rerenderEntireTree(state);
 };
 
+export let sendMessage = (dialogMessage) => {
+    let newMessage = {
+        id: 7,
+        message: dialogMessage
+    };
+
+    state.dialogsPage.messages.push(newMessage);
+    rerenderEntireTree(state);
+};
 
 export default state;
