@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ce829f-d420-47de-a731-38657fa8195f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItems.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItems.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/Item/Item.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/Message/MessageItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/Message/Message.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +37,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Andrew-webdev/andrew-webdev.github.io.git" />
+      </set>
+    </option>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -38,6 +53,11 @@
   <component name="ProjectId" id="1T72y6ICWc43STbKv3JR9WFVSmM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -64,24 +84,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItems" />
+      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItems\DialogItem" />
       <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\Message" />
       <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItem" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -99,6 +109,18 @@
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -143,7 +165,25 @@
       <workItem from="1574329782714" duration="191000" />
       <workItem from="1574330030701" duration="2604000" />
       <workItem from="1574332845886" duration="3781000" />
-      <workItem from="1574696081154" duration="2681000" />
+      <workItem from="1574696081154" duration="5453000" />
+      <workItem from="1574780932914" duration="725000" />
+      <workItem from="1574865528489" duration="1515000" />
+      <workItem from="1574958510520" duration="300000" />
+      <workItem from="1574958860825" duration="4514000" />
+      <workItem from="1575048371334" duration="57000" />
+      <workItem from="1575048468407" duration="40000" />
+      <workItem from="1575114023078" duration="850000" />
+      <workItem from="1575195954757" duration="157000" />
+      <workItem from="1575197056475" duration="282000" />
+      <workItem from="1575197359605" duration="172000" />
+      <workItem from="1575197578902" duration="7725000" />
+      <workItem from="1575205432543" duration="6403000" />
+      <workItem from="1575212180501" duration="404000" />
+      <workItem from="1575213163941" duration="85000" />
+      <workItem from="1575215715975" duration="1762000" />
+      <workItem from="1575217505487" duration="1268000" />
+      <workItem from="1575221964729" duration="549000" />
+      <workItem from="1575255256576" duration="1174000" />
     </task>
     <task id="LOCAL-00001" summary="Better every day">
       <created>1573576158269</created>
@@ -177,5 +217,31 @@
     <MESSAGE value="rendered data in index.js" />
     <MESSAGE value="Added the ability to add posts on the Profile page." />
     <option name="LAST_COMMIT_MESSAGE" value="Added the ability to add posts on the Profile page." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="442" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575204186935">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="442" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1575204186935" />
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1575212584222">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1575212584222" />
+    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1575212584222">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1575212584222" />
+    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1575212584222">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1575212584222" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1575212584222">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1575212584222" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1575205255179">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1575205255179" />
   </component>
 </project>
