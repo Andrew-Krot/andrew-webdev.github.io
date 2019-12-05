@@ -15,7 +15,7 @@ const DialogItems = (props) => {
         props.sendMessage();
     }
 
-    let onMessageChange = () => {debugger
+    let onMessageChange = () => {
         let text = newMessage.current.value;
         props.updateNewMessageText(text);
     }
