@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ce829f-d420-47de-a731-38657fa8195f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItems.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
@@ -178,7 +181,13 @@
       <workItem from="1575305952932" duration="813000" />
       <workItem from="1575385985303" duration="4284000" />
       <workItem from="1575471536915" duration="4581000" />
-      <workItem from="1575557237764" duration="8400000" />
+      <workItem from="1575557237764" duration="8722000" />
+      <workItem from="1575815367527" duration="2400000" />
+      <workItem from="1575903064696" duration="3080000" />
+      <workItem from="1575989774407" duration="5075000" />
+      <workItem from="1576078863380" duration="4328000" />
+      <workItem from="1576162891957" duration="488000" />
+      <workItem from="1576163420617" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Better every day">
       <created>1573576158269</created>
