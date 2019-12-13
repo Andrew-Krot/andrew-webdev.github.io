@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ce829f-d420-47de-a731-38657fa8195f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItemsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItems.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/Message" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/DialogItems" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -78,14 +78,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItems" />
+      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Profile\MyPosts" />
+      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\Message" />
+      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItem" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItems" />
       <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItems\DialogItem" />
       <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\Message" />
-      <recent name="F:\Documents\GitHub\andrew-webdev.github.io\my-app\src\components\Dialogs\DialogItem" />
     </key>
   </component>
   <component name="RunManager" selected="npm.test">
@@ -201,6 +203,7 @@
       <workItem from="1576078863380" duration="4328000" />
       <workItem from="1576162891957" duration="488000" />
       <workItem from="1576163420617" duration="6183000" />
+      <workItem from="1576247048000" duration="8291000" />
     </task>
     <task id="LOCAL-00001" summary="Better every day">
       <created>1573576158269</created>
@@ -240,22 +243,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1575204186935" />
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1576170163864">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1576257878951">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576170163864" />
-    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1576170163863">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576257878951" />
+    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1576257878951">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576170163863" />
-    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1576170163863">
+    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576257878951" />
+    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1576257878951">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576170163863" />
-    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1576170163863">
+    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576257878951" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1576257878951">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576170163863" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576257878951" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1576170163797">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
