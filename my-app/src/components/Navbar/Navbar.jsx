@@ -5,7 +5,7 @@ import FriendItem from "../Friends/FriendItem/FriendItem";
 
 const Navbar = (props) => {
 
-    let sideBarElements = props.state.friends.map (s => <FriendItem photo={s.photo} name={s.name} id={s.id}/>);
+    // let sideBarElements = props.state.friends.map (s => <FriendItem photo={s.photo} name={s.name} id={s.id}/>);
 
     return (
         <nav className={s.nav}>
@@ -29,9 +29,9 @@ const Navbar = (props) => {
             <div className={s.friendsTitle}>
                 <NavLink to="/friends" activeClassName={s.activeLink}>Friends</NavLink>
             </div>
-            <div className={s.friendsElements}>
-                {sideBarElements}
-            </div>
+            {/*<div className={s.friendsElements}>*/}
+            {/*    {sideBarElements}*/}
+            {/*</div>*/}
         </nav>
     );
 };

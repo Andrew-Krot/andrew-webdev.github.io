@@ -7,7 +7,7 @@ const Dialogs = (props) => {
 
     return (
         <div className={s.content}>
-            <DialogItemsContainer store={props.store}/>
+            <DialogItemsContainer/>
         </div>
     );
 };
