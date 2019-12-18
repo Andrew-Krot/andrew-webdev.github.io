@@ -5,12 +5,12 @@ import s from './Friends.module.css';
 
 const Friends = (props) => {
 
-    // let friendsElements = props.state.friends.map (f => <FriendItem photo={f.photo} name={f.name} id={f.id}/>);
+    let friendsElements = props.friends.map(f => <FriendItem photo={f.photo} name={f.name} id={f.id}/>);
 
     return (
         <div>
             <div className={s.friendsItem}>
-                {/*{friendsElements}*/}
+                {friendsElements}
             </div>
         </div>
     )
