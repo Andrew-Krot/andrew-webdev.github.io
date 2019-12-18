@@ -4,14 +4,14 @@ import DialogItems from "./DialogItems";
 import StoreContext from "../../../StoreContext";
 
 
-const DialogItemsContainer = () => {
+const DialogItemsContainer = () => {debugger
 
 
     return (
         <StoreContext.Consumer>
             {
                 (store) => {
-                    let state = store.getState().dialogsPage;
+                    let state = store.getState();
                     let sendMessage = () => {
                         store.dispatch(sendMessageActionCreator());
                     };
@@ -23,7 +23,9 @@ const DialogItemsContainer = () => {
 
                     return <DialogItems updateNewMessageText={onMessageChange}
                                         sendMessage={sendMessage}
-                                        dialogsPage={state}/>
+                                        dialogs={state.dialogsPage.dialogs}
+                                        messages={state.dialogsPage.messages}
+                                        newMessageText={state.dialogsPage.newMessageText}/>
                 }
             }
         </StoreContext.Consumer>
