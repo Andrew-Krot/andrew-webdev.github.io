@@ -7,8 +7,8 @@ import {BrowserRouter, Route} from "react-router-dom";
 import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
-import Navbarcontainer from "./components/Navbar/NavbarContainer";
 import FriendsContainer from "./components/Friends/FriendsContainer";
+import NavbarContainer from "./components/Navbar/NavbarContainer";
 
 
 const App = (props) => {
@@ -16,7 +16,7 @@ const App = (props) => {
         <BrowserRouter>
             <div className="app-wrapper">
                 <Header/>
-                <Navbarcontainer/>
+                <NavbarContainer/>
                 <div className='app-wrapper-content'>
                     <Route path="/profile"
                            render={() => <Profile/>}/>

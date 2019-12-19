@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ce829f-d420-47de-a731-38657fa8195f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Friends/FriendsContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/NavbarContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItems.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContext.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItemsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItems/DialogItemsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/FriendsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/FriendsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/NavbarContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/NavbarContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
@@ -209,6 +211,8 @@
       <workItem from="1576600073479" duration="1194000" />
       <workItem from="1576683508828" duration="137000" />
       <workItem from="1576683679215" duration="3944000" />
+      <workItem from="1576766996812" duration="1713000" />
+      <workItem from="1576770859092" duration="5399000" />
     </task>
     <task id="LOCAL-00001" summary="Better every day">
       <created>1573576158269</created>
@@ -248,22 +252,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1576684343046" />
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1576685397884">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1576776266728">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576685397884" />
-    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1576685397883">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576776266728" />
+    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1576776266728">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576685397883" />
-    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1576685397883">
+    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576776266728" />
+    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1576776266728">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576685397883" />
-    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1576685397884">
+    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576776266728" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1576776266728">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576685397884" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576776266728" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1576170163797">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
