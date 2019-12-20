@@ -11,7 +11,7 @@ import FriendsContainer from "./components/Friends/FriendsContainer";
 import NavbarContainer from "./components/Navbar/NavbarContainer";
 
 
-const App = (props) => {
+const App = () => {
     return (
         <BrowserRouter>
             <div className="app-wrapper">
