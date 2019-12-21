@@ -5,7 +5,7 @@ import FriendItem from "../Friends/FriendItem/FriendItem";
 
 const Navbar = (props) => {
 
-    let sideBarElements = props.friends.map(s => <FriendItem photo={s.photo} name={s.name} id={s.id}/>);
+    let sideBarElements = props.friends.map(s => <FriendItem photo={s.photo} name={s.name} key={s.id} id={s.id}/>);
 
     return (
         <nav className={s.nav}>
