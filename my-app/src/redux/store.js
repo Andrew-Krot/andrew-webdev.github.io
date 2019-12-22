@@ -1,5 +1,4 @@
 import React from 'react';
-import s from '../components/Friends/FriendItem/FriendItem.module.css';
 import profileReducer from "./profile-reducer";
 import dialogsReducer from "./dialogs-reducer";
 import sidebarReducer from "./sidebar-reducer";
